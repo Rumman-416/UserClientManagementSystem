@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Poppins", sans-serif;
+  /* background: #dce0e4; */
+  background: #f3f3f3 !important;
+}
+
+label {
+  color: black;
+  font-size: 0.875rem;
+  /* font-weight: 500 */
+}
+
+.overflow-y-auto::-webkit-scrollbar {
+  display: none;
+}
+
+.overflow-y-auto {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.sidemenu {
+  @apply text-[12px] font-normal flex items-center gap-2   transition-transform duration-300;
+}
+
+.sidemenu-links {
+  @apply flex  items-center text-white bg-black hover:bg-mainColor  rounded p-2   transition-all hover:shadow-md  mb-1;
+}
+
+.sidemenu-links.active {
+  @apply bg-[#6e48ff];
+}
+.sidePmenu:hover .sidePmenu-child {
+  opacity: 100;
+}
+
+.common-box {
+  @apply shadow-md;
+}
