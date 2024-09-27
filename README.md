@@ -1,5 +1,5 @@
 
-# BMSA
+# User Client Management System
 
 
 I have developed a user-client management system accessible by the admin, where user or client creation is validated using PAN numbers through an external API. The system provides a visual representation of the data, and success or failure reports can be exported as PDFs. Additionally, the system utilizes a one-to-many model, allowing multiple users to be assigned under a single client name.
